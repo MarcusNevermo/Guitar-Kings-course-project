@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "Boots & Spurs";
+    src: url("../fonts/BootsAndSpurs.ttf") format("truetype");
+}
+
+
+body{
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+
+h1,
+h2,
+.logo
+{
+    font-family: "Boots & Spurs", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product-list h2{
+   font-family: "Roboto", Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center; 
+}
+
+nav {
+    margin-left: 25px;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li { 
+ display: inline-block ;
+}
+
+header, 
+footer{
+    background-color: #202020;
+    color: #ffffff;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+header a{
+    color: #ffffff;
+}
+
+.cta {
+    background-color: #bb0000;
+    color: #ffffff;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
+}
+
+.cta-small {
+    padding: 8px 30px;
+    font-size: 0.8em;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.reviews {
+    background-color: #e8e8e8;
+}
+
+.featured--products {
+    background-color: #;
+}
+
+.cta-sale {
+    background-color: #127300;
+}
+
+footer {
+    text-align: center
+}
+
+
+/* Home Page */
+.welcome{
+   background-image: url("../images/home-header.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position-x: right ;
+   background-position-y: bottom;
+   min-height: 70vh;
+   position: relative;
+}
+
+.welcome__content {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 100px;  
+
+}
+
+.selling-points {
+    margin: 50px auto;
+}
+
+.selling-points,
+.reviews__content{
+  max-width: 1000px;
+  display: flex;
+}
+
+ 
+.selling-points > *, 
+.reviews__content > * {
+    flex: 1;
+}
+
+
+.selling-points__images {
+   border-radius: 100px; 
+}
+
+.reviews {
+    text-align: center;
+    padding: 50px;
+}
+
+.reviews__content {
+  text-align: left;
+  margin: auto;
+}
+
+.reviews__content div {
+    margin: 50px;
+}
+
+.review__images{
+    width: 80px;
+    border-radius: 50%;
+    float: right;
+}
+
+.reviews__name {
+    display: block;
+    padding: 50px;
+}
+
+
+
+/* Contact Page */
+
+input,
+select, 
+textarea {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+}
+
+.contact {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* Product Specific Page */
+
+.product-specific {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.product-specific > * {
+    flex: 1;
+}
+
+.product-specific__details {
+    padding: 0px 20px;
+}
+
+.product-specific__details a {
+    display: block;
+    width: 95.767px;
+    margin: auto;
+}
+
+.product-specific__price {
+    font-size: 1.5em;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.product-image_thumbnails {
+   display: flex; 
+   justify-content: space-between;
+   gap: 10px;
+   margin-top: 5px;
+}
+
+.product-image_thumbnails img {
+    margin: 10px;
+}
+
